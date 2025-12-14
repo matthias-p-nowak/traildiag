@@ -1,9 +1,9 @@
 dev-push:
-    uv version --bump dev
-    uv format
-    rm -fr dist
-    uv build
-    uvx twine upload -r matthiasgloriusgenie dist/*
+  uv version --bump dev
+  uv format
+  rm -fr dist
+  uv build
+  uvx twine upload -r matthiasgloriusgenie dist/*
 
 clean:
   find . -path *_cache* -print -delete
