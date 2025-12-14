@@ -1,0 +1,17 @@
+[project]
+name = "traildiag"
+version = "0.1.0dev"
+description = "A diagram that shows how the steps in an optimization went."
+readme = "README.md"
+authors = [
+    { name = "Matthias P. Nowak", email = "me-github@mefju7.priv.no" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+traildiag = "traildiag:main"
+
+[build-system]
+requires = ["uv_build>=0.9.4,<0.10.0"]
+build-backend = "uv_build"
