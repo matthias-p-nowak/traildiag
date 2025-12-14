@@ -1,6 +1,6 @@
 [project]
 name = "traildiag"
-version = "0.1.0.dev1"
+version = "0.1.0.dev2"
 description = "A diagram that shows how the steps in an optimization went."
 readme = "README.md"
 authors = [
@@ -15,6 +15,9 @@ traildiag = "traildiag:main"
 [tool.pytest.ini_options]
 addopts = "-s"
 pythonpath = "src"
+
+[tool.ruff]
+src = ["src"]
 
 [build-system]
 requires = ["uv_build>=0.9.4,<0.10.0"]
