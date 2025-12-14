@@ -11,3 +11,5 @@ clean:
   rm -frv .venv dist
   find . -name *pyc -print -delete
   
+test:
+  uvx pytest
