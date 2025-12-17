@@ -1,6 +1,6 @@
 [project]
 name = "traildiag"
-version = "0.1.0.dev2"
+version = "0.1.0.dev3"
 description = "A diagram that shows how the steps in an optimization went."
 readme = "README.md"
 authors = [
@@ -11,6 +11,9 @@ dependencies = []
 
 [project.scripts]
 traildiag = "traildiag:main"
+
+[project.urls]
+Repository = "https://github.com/matthias-p-nowak/traildiag"
 
 [tool.pytest.ini_options]
 addopts = "-s"
