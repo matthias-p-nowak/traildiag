@@ -11,3 +11,4 @@ wheels/
 paper/*
 !paper/traildiag.tex
 
+uv.lock

@@ -23,14 +23,19 @@ solutions, and outlines how it complements traditional convergence plots.
 \tableofcontents
 \listoffigures
 \listoftables
+
 \section{Introduction}
+This paper introduces a new diagram that can give ideas how the optimization walks through the parameter space, which might be high dimensional like in current AI models.
 
-One can plot how an optimization method progresses in 2D, 
-albeit with severere limitations.
+\subsection{Challenge}
+Optimizing problems in two dimensions has the additional advantage that one could plot the steps taken by the algorithm and identy short comings.
+Even then, convergence leads to the step size going over several magnitudes, hence plotting the steps is only helpful in simple situations.
 
+\subsection{Basic idea}
+We introduce the concept of markers in the parameter space. 
+At intervals, a marker is dropped at the current position, and we maintain a certain number of markers. 
+Then, at each iteration of the algorithm, we determine the distance to all markers and plot them in a plot.
 
-\subsection{Background}
-\subsection{Methodology}
 \section{Results}
 \subsection{Results 1}
 \subsection{Results 2}
